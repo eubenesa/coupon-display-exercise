@@ -1,7 +1,62 @@
-/*
-  Just a style used for testing that this CSS file
-  is being properly pulled in by the index.html file
-*/
-.large-text {
-  font-size: 48px;
-}
+.btn-primary {
+  background-color: #9c9c9c;
+  border-color: #9c9c9c; }
+  .btn-primary:hover {
+    background-color: #9c9c9c;
+    border-color: #9c9c9c; }
+
+.coupon-cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-color: #a1a1a1;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px; }
+
+.coupon-header {
+  background-color: #6c6c6c;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px; }
+
+.coupon-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  color: #ffffff; }
+
+.coupon-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.coupon-description {
+  margin-bottom: 0;
+  font-size: 0.9rem; }
+
+.coupon-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f0f0f0;
+  border-top-color: #cdcdcd;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px; }
+
+.coupon-btn {
+  font-size: 0.9rem;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
